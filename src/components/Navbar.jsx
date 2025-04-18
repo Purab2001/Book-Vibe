@@ -25,7 +25,7 @@ const Navbar = () => {
                     About
                 </NavLink>
                 <NavLink
-                    to="/listed-books"
+                    to="/read-list"
                     className={({ isActive }) =>
                         isActive ? "text-md px-4 btn btn-outline btn-success" : "text-md mx-4"
                     }
@@ -42,8 +42,8 @@ const Navbar = () => {
                 </NavLink>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-success mr-4 text-white">Sign In</a>
-                <a className="btn btn-accent text-white">Sign Up</a>
+                <a className="btn btn-success mr-4 text-white shadow-none">Sign In</a>
+                <a className="btn btn-accent text-white shadow-none">Sign Up</a>
             </div>
         </div>
     );
